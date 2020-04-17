@@ -15,3 +15,5 @@ Some special colors are supported too, like `fg`(.foreground) `bg`(.background) 
 
 ## Warning!
 This will replace ALL white spces with a single space (except line breaks, line breaks will be line breaks)
+You also need to have the exact sequence, so for example this wont work: `$XC 1;` you need to leave whitespaces!
+Ther working version is this: `$XC 1 ;`.
